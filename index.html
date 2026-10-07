@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FIT YOUR LIFE — Premium Fitness Club</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Opening Login -->
+<div class="login-screen" id="loginScreen">
+  <div class="login-glow"></div>
+  <div class="login-panel">
+    <div class="login-brand">FIT <b>YOUR LIFE</b></div>
+    <div class="mini-line"></div>
+    <p class="tag">PRIVATE FITNESS CLUB</p>
+    <h1>WELCOME<br><span>BACK.</span></h1>
+    <p class="muted">Enter the club and start building a stronger version of yourself.</p>
+    <form id="loginForm">
+      <label>Email Address</label>
+      <input type="email" placeholder="you@example.com" required>
+      <label>Password</label>
+      <input type="password" placeholder="••••••••" required>
+      <button class="lime-btn" type="submit">LOGIN TO THE CLUB <i>→</i></button>
+    </form>
+    <button class="guest" id="guestBtn">CONTINUE AS GUEST</button>
+    <small id="loginMsg"></small>
+  </div>
+</div>
+
+<header>
+ <a class="brand" href="#home">FIT <strong>YOUR LIFE</strong></a>
+ <nav><a href="#about">About</a><a href="#services">Services</a><a href="#membership">Membership</a><a href="#contact">Contact</a></nav>
+ <button class="header-login" id="headerLogin">LOGIN ↗</button>
+</header>
+
+<section class="hero" id="home">
+ <div class="hero-bg"></div><div class="hero-grid"></div>
+ <div class="hero-copy reveal">
+   <p class="tag">PREMIUM FITNESS • PERFORMANCE • WELLNESS</p>
+   <h2>DISCIPLINE<br><em>BUILDS</em><br>RESULTS.</h2>
+   <p class="lead">A professional fitness club designed for people who want more from their body, their energy and their life.</p>
+   <div class="actions"><a class="lime-btn" href="#membership">VIEW MEMBERSHIPS <i>→</i></a><a class="ghost-link" href="#services">EXPLORE SERVICES ↓</a></div>
+ </div>
+ <div class="hero-side"><span>01</span><div></div><small>FIT YOUR LIFE<br>EST. 2026</small></div>
+ <div class="hero-bottom"><span>12K+ MEMBERS</span><span>24/7 ACCESS</span><span>35+ EXPERTS</span></div>
+</section>
+
+<section class="about" id="about">
+ <div class="section-head reveal"><p class="tag">01 / OUR PHILOSOPHY</p><h2>TRAIN FOR<br><span>YOUR LIFE.</span></h2></div>
+ <div class="about-copy reveal"><p>Fit Your Life is more than equipment and workouts. We combine expert coaching, structured training and recovery into one complete fitness experience.</p><a href="#services">SEE WHAT WE OFFER →</a></div>
+ <div class="ticker"><div>STRENGTH • CONFIDENCE • ENERGY • PERFORMANCE • DISCIPLINE • RECOVERY • </div><div>STRENGTH • CONFIDENCE • ENERGY • PERFORMANCE • DISCIPLINE • RECOVERY • </div></div>
+</section>
+
+<section class="services" id="services">
+ <div class="section-head reveal"><p class="tag">02 / SERVICES</p><h2>EVERYTHING<br><span>YOU NEED.</span></h2></div>
+ <div class="service-grid">
+  <article class="service-card reveal" data-service="personal"><span class="num">01</span><div class="icon">↗</div><h3>PERSONAL<br>TRAINING</h3><p>Individual coaching built around your body and your goal.</p><button>VIEW FULL DETAILS →</button></article>
+  <article class="service-card reveal" data-service="group"><span class="num">02</span><div class="icon">✦</div><h3>GROUP<br>CLASSES</h3><p>High-energy sessions where motivation becomes contagious.</p><button>VIEW FULL DETAILS →</button></article>
+  <article class="service-card reveal" data-service="functional"><span class="num">03</span><div class="icon">◒</div><h3>FUNCTIONAL<br>FITNESS</h3><p>Move better, get stronger and improve real-world performance.</p><button>VIEW FULL DETAILS →</button></article>
+  <article class="service-card reveal" data-service="recovery"><span class="num">04</span><div class="icon">+</div><h3>RECOVERY &<br>WELLNESS</h3><p>Recovery systems that help your body perform and reset.</p><button>VIEW FULL DETAILS →</button></article>
+ </div>
+</section>
+
+<section class="membership" id="membership">
+ <div class="section-head reveal"><p class="tag">03 / MEMBERSHIP</p><h2>SIMPLE PLANS.<br><span>SERIOUS RESULTS.</span></h2></div>
+ <div class="plans">
+  <article class="plan reveal"><p class="plan-label">6 MONTH MEMBERSHIP</p><div class="price">₹5,000 <small>/ 6 months</small></div><p class="save">₹833 / month equivalent</p><ul><li>Full gym access</li><li>Modern strength & cardio equipment</li><li>Fitness assessment</li><li>Group class access</li><li>Locker facility</li><li>Basic trainer guidance</li></ul><button class="lime-btn join">SELECT 6 MONTHS <i>→</i></button></article>
+  <article class="plan featured reveal"><b class="popular">BEST VALUE</b><p class="plan-label">12 MONTH MEMBERSHIP</p><div class="price">₹9,000 <small>/ 12 months</small></div><p class="save">₹750 / month equivalent</p><ul><li>Everything in 6 Months</li><li>Priority trainer guidance</li><li>All group classes</li><li>Quarterly fitness assessment</li><li>Recovery & wellness access</li><li>Member-only offers</li></ul><button class="lime-btn join">SELECT 12 MONTHS <i>→</i></button></article>
+ </div>
+ <p class="plan-note reveal">Click any membership to see complete inclusions before joining.</p>
+</section>
+
+<section class="stats">
+ <div class="stat"><strong>35+</strong><span>EXPERT COACHES</span></div><div class="stat"><strong>50+</strong><span>WEEKLY CLASSES</span></div><div class="stat"><strong>24/7</strong><span>CLUB ACCESS</span></div><div class="stat"><strong>12K+</strong><span>MEMBERS</span></div>
+</section>
+
+<section class="contact" id="contact"><div class="contact-inner reveal"><p class="tag">04 / START TODAY</p><h2>YOUR NEXT<br><span>CHAPTER.</span></h2><p>Walk in with a goal. Walk out with a new standard.</p><button class="lime-btn" id="tourBtn">BOOK A FREE TOUR <i>→</i></button></div></section>
+
+<footer><a class="brand" href="#home">FIT <strong>YOUR LIFE</strong></a><span>© 2026 FIT YOUR LIFE</span><span>TRAIN • RECOVER • REPEAT</span></footer>
+
+<!-- Service Details -->
+<div class="detail-overlay" id="detailOverlay"><div class="detail-box"><button class="detail-close" id="detailClose">×</button><p class="tag" id="detailTag"></p><h2 id="detailTitle"></h2><p class="detail-intro" id="detailIntro"></p><div class="detail-grid" id="detailGrid"></div><button class="lime-btn detail-join" id="detailJoin">JOIN FIT YOUR LIFE <i>→</i></button></div></div>
+
+<!-- Membership Details -->
+<div class="detail-overlay" id="planOverlay"><div class="detail-box plan-detail"><button class="detail-close planClose">×</button><p class="tag" id="planTag"></p><h2 id="planTitle"></h2><div class="big-price" id="planPrice"></div><p id="planIntro" class="detail-intro"></p><div class="detail-grid" id="planGrid"></div><button class="lime-btn" id="planLogin">CONTINUE TO LOGIN <i>→</i></button></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
