@@ -1,24 +1,27 @@
 FIT YOUR LIFE — PROFESSIONAL GYM WEBSITE
 
-UPDATED VERSION:
-• Opening animated professional login screen
-• Only 2 memberships:
-  - 6 Months — ₹5,000
-  - 12 Months — ₹9,000
-• Clicking membership opens complete specification
-• Personal Training details
-• Group Classes details
-• Functional Fitness details
-• Recovery & Wellness details
-• Professional dark + lime premium theme
-• Scroll reveal animations
-• Responsive mobile layout
-• Animated ticker, grid, hero and modal transitions
+SEO-UPDATED VERSION
+- SEO title and meta description
+- Robots meta tag
+- Canonical URL
+- Open Graph metadata for social sharing
+- HealthClub structured data (JSON-LD)
+- robots.txt
+- sitemap.xml
 
-RUN:
-1. Extract ZIP.
-2. Open folder in VS Code.
-3. Open index.html with Live Server or browser.
+WEBSITE
+https://rishabsingh01.github.io/Fit-Your-Life-gym-website/
 
-IMPORTANT:
-Login is a front-end demo. It does not create real accounts or store passwords.
+FEATURES
+- Opening animated login screen
+- Two membership plans: 6 Months ₹5,000 and 12 Months ₹9,000
+- Detailed membership specifications
+- Personal Training
+- Group Classes
+- Functional Fitness
+- Recovery & Wellness
+- Scroll reveal animations
+- Responsive design
+
+NOTE
+Login is a front-end demo only. Real authentication requires a backend/database.
